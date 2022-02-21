@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "datasource",
+  "name": "Arango Foxx datasource",
+  "id": "woodytechnologies-arangofoxx-datasource",
+  "metrics": true,
+  "info": {
+    "description": "ArangoDB foxx grafana datasource",
+    "author": {
+      "name": "AntoninJuquel",
+      "url": "https://github.com/WoodyTechnologies/GrafanaArangoDBDatasource"
+    },
+    "keywords": [
+      "ArangoDB",
+      "Foxx",
+      "Grafana"
+    ],
+    "logos": {
+      "small": "img/logo.webp",
+      "large": "img/logo.webp"
+    },
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://github.com/WoodyTechnologies/GrafanaArangoDBDatasource"
+      },
+      {
+        "name": "License",
+        "url": "https://github.com/WoodyTechnologies/GrafanaArangoDBDatasource/blob/main/LICENSE"
+      }
+    ],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=7.0.0",
+    "plugins": []
+  }
+}
